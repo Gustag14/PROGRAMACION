@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con los tipos de datos básicos de Python utilizando variables para almacenar información.
+
+**¿Para qué sirve?**
+
+Este programa permite guardar un nombre y una edad en variables para poder utilizarlos posteriormente dentro del programa. Es una forma sencilla de almacenar información de manera organizada.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y variables de tipo cadena y entero. También he usado la función `print()` para mostrar los datos por pantalla.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido qué son los literales, cómo almacenar datos en variables y los tipos de datos más básicos de Python.

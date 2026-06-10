@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una clase llamada Temperaturas que contiene varios métodos para realizar conversiones entre grados Celsius y Fahrenheit, además de determinar si una temperatura puede considerarse calurosa.
+
+**¿Para qué sirve?**
+
+El programa permite convertir temperaturas entre distintas unidades utilizando métodos creados por el usuario. También permite analizar una temperatura determinada para indicar si hace calor o si la temperatura es agradable.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y programación orientada a objetos para crear la clase Temperaturas. Dentro de la clase he definido varios métodos que reciben parámetros y devuelven resultados mediante la instrucción `return`. Además, he utilizado estructuras condicionales para tomar decisiones según el valor introducido por el usuario.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a crear clases con métodos propios, trabajar con parámetros y valores de retorno, y desarrollar pequeñas herramientas capaces de realizar cálculos y comprobaciones de forma organizada. También he reforzado el uso de la programación orientada a objetos en Python.

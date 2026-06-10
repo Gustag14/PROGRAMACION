@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con módulos de Python para ampliar las funciones disponibles en el programa.
+
+**¿Para qué sirve?**
+
+Este programa permite redondear un número decimal al entero superior más cercano. Este tipo de operaciones son muy útiles en cálculos matemáticos, estadísticos o financieros.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y el módulo `math`, que incluye funciones matemáticas ya preparadas. En este caso he empleado la función `ceil()` para realizar el redondeo hacia arriba de un número decimal.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a importar módulos externos y a utilizar funciones ya creadas para realizar operaciones matemáticas de forma más sencilla.

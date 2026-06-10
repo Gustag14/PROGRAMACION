@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación de gestión de productos utilizando programación orientada a objetos y almacenamiento de datos en archivos binarios.
+
+**¿Para qué sirve?**
+
+El programa permite crear, consultar, modificar y eliminar productos dentro de una lista. Además, los datos se guardan automáticamente en un archivo utilizando pickle, lo que permite que la información no se pierda al cerrar el programa.
+
+**Tecnologías utilizadas**
+
+He utilizado Python con clases para representar cada producto mediante sus propiedades (nombre y precio). También he utilizado listas para almacenar los objetos, estructuras condicionales para el menú y bucles para mantener el programa en ejecución. Para la persistencia de datos he utilizado la librería pickle, que permite guardar y cargar objetos en archivos binarios.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a crear un sistema CRUD completo con persistencia de datos, trabajando con clases, listas de objetos y archivos binarios. También he reforzado el uso de estructuras de control para construir aplicaciones interactivas en consola.

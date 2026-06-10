@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con la programación orientada a objetos utilizando clases y objetos. Este paradigma permite organizar mejor la información y el comportamiento de los elementos de un programa.
+
+**¿Para qué sirve?**
+
+El programa crea personajes de un videojuego con características propias, como nombre y nivel. Además, cada personaje puede realizar acciones mediante métodos, en este caso un ataque.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y los conceptos básicos de programación orientada a objetos: clases, objetos, propiedades y métodos. También he utilizado el constructor `__init__()` para inicializar los datos de cada personaje.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a crear clases y objetos, almacenando información y comportamientos relacionados dentro de una misma estructura, lo que facilita la organización y reutilización del código.

@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con la entrada de datos en Python, permitiendo que el usuario introduzca información 
+
+**¿Para qué sirve?**
+
+Este programa permite pedir al usuario su nombre y su edad. Después muestra un saludo personalizado y calcula el doble de la edad introducida, demostrando cómo se pueden utilizar los datos proporcionados por el usuario.
+
+**Tecnologías utilizadas**
+
+He utilizado Python por su facilidad de uso. También he empleado la función `input()` para recoger datos del usuario, la función `int()` para convertir texto en números enteros y `print()` para mostrar los resultados en pantalla.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a recoger información del usuario, almacenar datos en variables y realizar operaciones matemáticas con ellos.

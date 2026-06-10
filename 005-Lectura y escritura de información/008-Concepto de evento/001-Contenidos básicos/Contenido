@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación de escritorio con interfaz gráfica utilizando Tkinter y una base de datos MySQL para gestionar una colección de libros.
+
+**¿Para qué sirve?**
+
+El programa permite introducir libros con su título y autor, guardarlos en una base de datos y mostrarlos en una tabla dentro de la interfaz. Además, los datos se actualizan automáticamente cada vez que se inserta un nuevo registro.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal, Tkinter para crear la interfaz gráfica y MySQL como sistema de almacenamiento de datos. También se ha utilizado Treeview para mostrar la información en formato tabla y consultas SQL para realizar operaciones de inserción y lectura.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a conectar una aplicación gráfica con una base de datos real, creando un sistema CRUD funcional con interfaz visual. Esto me ha permitido entender cómo se construyen aplicaciones de escritorio conectadas a bases de datos en entornos profesionales.

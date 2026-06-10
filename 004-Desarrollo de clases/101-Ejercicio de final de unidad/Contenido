@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una clase llamada Libro utilizando programación orientada a objetos. La clase permite almacenar información relacionada con distintos libros mediante atributos definidos en el constructor.
+
+**¿Para qué sirve?**
+
+El programa permite crear varios libros con sus propios datos, como el título, el autor y el número de páginas. Además, incorpora métodos para consultar y modificar el título de cada libro mediante el uso de los métodos get y set.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y programación orientada a objetos para crear la clase Libro. También he empleado un constructor con parámetros para inicializar los atributos de cada objeto, además de métodos get y set para acceder y modificar la información almacenada. Finalmente, se han creado varias instancias para demostrar el funcionamiento independiente de cada objeto.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con clases, constructores con parámetros y métodos get y set. También he comprobado cómo cada objeto mantiene sus propios datos y cómo es posible modificar sus atributos de forma controlada mediante métodos específicos.

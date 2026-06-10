@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado un pequeño sistema que permite almacenar y leer información de artículos utilizando archivos JSON y archivos de texto, simulando una pequeña base de datos para un blog.
+
+**¿Para qué sirve?**
+
+El programa permite guardar una lista de artículos con información como el título, la fecha, el autor y el contenido. Posteriormente, estos datos se leen desde un archivo JSON y se muestran por pantalla. Además, se ha añadido un sistema de comentarios almacenados en un archivo de texto que también pueden ser leídos y mostrados.
+
+**Tecnologías utilizadas**
+
+He utilizado Python para trabajar con archivos JSON mediante la librería `json`, permitiendo guardar y leer estructuras de tipo lista y diccionario. También he utilizado archivos de texto (`txt`) para almacenar comentarios. Se han empleado bucles para recorrer la información y estructuras de datos como listas y diccionarios para organizar los artículos.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con archivos JSON y archivos de texto, entendiendo cómo almacenar información estructurada y cómo recuperarla posteriormente. Además, he reforzado el uso de bucles y estructuras de datos para mostrar información de forma organizada, simulando el funcionamiento básico de un blog.

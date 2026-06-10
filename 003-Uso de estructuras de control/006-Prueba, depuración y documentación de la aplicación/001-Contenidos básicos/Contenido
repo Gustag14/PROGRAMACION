@@ -1,0 +1,39 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con funciones seguras capaces de validar datos antes de realizar una operación. El objetivo es evitar errores cuando el usuario introduce información incorrecta.
+
+**¿Para qué sirve?**
+
+El programa calcula el precio final de un producto aplicando un descuento. Antes de realizar el cálculo comprueba que los datos sean válidos y, en caso de error, devuelve un valor seguro sin detener la ejecución del programa.
+
+**Tecnologías utilizadas**
+
+He utilizado Python, funciones con parámetros y valores de retorno, conversiones de datos mediante `float()` y bloques `try-except` para gestionar posibles errores durante la ejecución.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a crear funciones más robustas, capaces de validar datos y gestionar errores para evitar fallos inesperados en el programa.
+
+
+
+3 En raya
+
+Explicación de la práctica
+
+Introducción
+
+En esta práctica he desarrollado un juego sencillo para dos jugadores basado en la mecánica del tres en raya. En lugar de utilizar las fichas tradicionales, los jugadores representan un tesoro y un pirata.
+
+¿Para qué sirve?
+
+El programa permite que dos personas jueguen por turnos seleccionando posiciones en un tablero de 3x3. El objetivo es conseguir tres símbolos iguales en línea antes que el rival.
+
+Tecnologías utilizadas
+
+He utilizado Python, listas para almacenar el tablero, estructuras condicionales para controlar los turnos y bucles para mantener la partida en funcionamiento hasta que exista un ganador.
+
+Conclusión
+
+Gracias a esta práctica he aprendido a combinar variables, listas, bucles y condicionales para crear un juego interactivo sencillo, mejorando mis conocimientos sobre la lógica de programación y el control del flujo de un programa.

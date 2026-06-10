@@ -1,0 +1,30 @@
+1. Contexto
+En los videojuegos, los personajes pueden representarse como objetos, ya que cada uno tiene propiedades (como salud o fuerza) y comportamientos (como atacar o recibir daño).
+Esto refleja perfectamente el enfoque de la programación orientada a objetos (POO), donde los objetos agrupan datos y funciones relacionadas.
+2. Desarrollo técnico
+Se crea la clase Personaje con tres propiedades:
+
+nombre: identifica al personaje.
+salud: indica cuánta vida tiene.
+fuerza: determina el daño que puede causar.
+
+Se añaden tres métodos:
+
+__init__(): Constructor para inicializar el objeto.
+atacar(objetivo): Hace que el personaje ataque a otro.
+recibir_ataque(daño): Reduce la salud del personaje según el daño recibido.
+
+3. Aplicación práctica
+Ejecutando el código:
+text⚔️ ¡COMIENZA LA BATALLA! ⚔️
+
+⚔️ Arthas ataca a Sylvanas causando 20 puntos de daño.
+💥 Sylvanas ha recibido 20 puntos de daño. Salud actual: 70
+⚔️ Sylvanas ataca a Arthas causando 15 puntos de daño.
+💥 Arthas ha recibido 15 puntos de daño. Salud actual: 85
+
+🏁 Estado final:
+Arthas → Salud: 85
+Sylvanas → Salud: 70
+4. Conclusión
+Este ejemplo demuestra cómo la programación orientada a objetos permite representar entidades del mundo real (como personajes de un juego) mediante clases, propiedades y métodos. Utilizar POO facilita la organización del código, su reutilización y escalabilidad, siendo fundamental en el desarrollo de videojuegos y aplicaciones modernas.

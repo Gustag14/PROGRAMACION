@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado un programa que simula el intento de un pirata por abrir un cofre protegido utilizando diferentes ataques.
+
+**¿Para qué sirve?**
+
+El programa clasifica al personaje según su edad, calcula su poder base y ejecuta una serie de ataques contra un cofre con energía limitada. Al finalizar, muestra si el cofre ha sido abierto o si ha resistido los ataques.
+
+**Tecnologías utilizadas**
+
+He utilizado Python junto con funciones, estructuras condicionales, bucles `for`, manejo de errores mediante `try-except` y validaciones con `assert`. También se han empleado variables y operaciones matemáticas para calcular el daño de cada ataque.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a combinar funciones, validaciones y estructuras de control para crear una pequeña simulación capaz de procesar datos, realizar cálculos y mostrar resultados de forma organizada.

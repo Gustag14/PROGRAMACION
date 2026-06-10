@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con el control de errores en Python utilizando bloques `try` y `except` para evitar que el programa se detenga cuando ocurre una excepción.
+
+**¿Para qué sirve?**
+
+El programa calcula el porcentaje de ocupación de un local a partir de las entradas vendidas y la capacidad disponible. Si el usuario introduce datos incorrectos o intenta dividir entre cero, el programa muestra un mensaje de error y continúa funcionando de forma controlada.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y las estructuras `try`, `except` y `finally`. También he empleado conversiones de datos con `int()` y operaciones matemáticas para calcular el porcentaje de ocupación.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a gestionar errores de forma segura, mejorando la estabilidad del programa y ofreciendo mensajes más claros al usuario cuando se produce una situación inesperada.

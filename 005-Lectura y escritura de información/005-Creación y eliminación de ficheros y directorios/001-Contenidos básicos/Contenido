@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado un sistema de gestión de copias de seguridad utilizando el módulo os y la librería zipfile de Python.
+
+**¿Para qué sirve?**
+
+El programa permite analizar una carpeta seleccionada por el usuario y crear copias comprimidas de todos sus archivos y subcarpetas. Estas copias se guardan en una carpeta llamada backups, y posteriormente se eliminan los archivos y carpetas originales, simulando un sistema de respaldo automático.
+
+**Tecnologías utilizadas**
+
+He utilizado Python junto con el módulo os para trabajar con rutas y estructuras de directorios. También he empleado zipfile para comprimir archivos y carpetas, y shutil para eliminar directorios completos. Además, se han utilizado estructuras condicionales para diferenciar entre archivos y carpetas, y bucles para recorrer todo el contenido del sistema de archivos.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a automatizar procesos de gestión de archivos, creando un sistema de copias de seguridad funcional. También he reforzado el uso de recorridos de carpetas, compresión de archivos y manipulación del sistema de archivos en Python.

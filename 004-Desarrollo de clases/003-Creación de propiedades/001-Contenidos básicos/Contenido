@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación para gestionar una pequeña colección musical utilizando programación orientada a objetos.
+
+**¿Para qué sirve?**
+
+El programa permite añadir canciones, guardar información sobre su título, artista y géneros musicales, consultar la colección almacenada y eliminar canciones cuando sea necesario.
+
+**Tecnologías utilizadas**
+
+He utilizado Python, clases y objetos para representar cada canción. También he empleado propiedades simples para almacenar datos como el título y el artista, además de listas para guardar varios géneros musicales asociados a cada canción. La aplicación utiliza estructuras condicionales y bucles para implementar un sistema básico de gestión.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con clases, propiedades y listas de objetos, organizando la información de una forma más eficiente y fácil de mantener.

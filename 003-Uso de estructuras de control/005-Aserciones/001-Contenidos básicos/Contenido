@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con las aserciones de Python para comprobar que una condición se cumple antes de continuar con la ejecución del programa.
+
+**¿Para qué sirve?**
+
+El programa verifica si hay unidades disponibles de un producto en stock. Si la condición se cumple, el programa continúa normalmente; en caso contrario, se genera un error controlado que informa del problema.
+
+**Tecnologías utilizadas**
+
+He utilizado Python junto con la instrucción `assert`, que permite validar condiciones de forma rápida. También he empleado un bloque `try-except` para capturar el error y mostrar un mensaje más comprensible al usuario.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a utilizar aserciones para comprobar datos importantes y detectar posibles errores durante la ejecución de un programa.

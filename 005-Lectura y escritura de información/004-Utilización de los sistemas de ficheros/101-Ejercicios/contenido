@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación para analizar el contenido de una carpeta del sistema utilizando el módulo os de Python.
+
+**¿Para qué sirve?**
+
+El programa permite recorrer una carpeta y todas sus subcarpetas para obtener información de los archivos que contiene. Por un lado, calcula el tamaño total de la carpeta y guarda un informe con la ruta de cada archivo. Por otro lado, permite realizar búsquedas dentro de ese informe para encontrar archivos que coincidan con un texto introducido por el usuario.
+
+**Tecnologías utilizadas**
+
+He utilizado Python junto con el módulo os para trabajar con directorios y archivos del sistema. Se han empleado funciones como listdir y walk para recorrer carpetas, getsize para obtener el tamaño de los archivos y join para construir rutas correctamente. También he utilizado archivos de texto para guardar un informe y posteriormente leerlo y buscar información dentro de él.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a recorrer estructuras de carpetas de forma automática, calcular el tamaño total de una carpeta y generar informes de archivos. Además, he reforzado el uso de búsqueda dentro de archivos de texto y el manejo del sistema de archivos en Python.

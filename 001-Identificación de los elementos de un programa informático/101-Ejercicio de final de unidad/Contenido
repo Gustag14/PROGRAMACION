@@ -1,0 +1,9 @@
+Explicación de la práctica
+Introducción
+En esta actividad final de unidad he desarrollado el programa registro_producto.py, el cual permite registrar la información básica de un producto. El programa solicita datos al usuario, realiza cálculos automáticos y muestra un resumen completo con el estado del stock.
+¿Para qué sirve?
+Este programa es útil para gestionar el inventario básico de productos en una tienda o pequeño negocio. Permite registrar rápidamente un artículo, calcular su precio final con IVA y controlar el nivel de stock, alertando cuando es necesario reponer mercancía.
+Tecnologías utilizadas
+He utilizado Python con variables, constantes, operadores matemáticos y de comparación. Empleé las funciones input() e int() / float() para recoger datos del usuario, estructuras condicionales (if, elif) y print() con formato para presentar la información de forma clara y profesional. También incluí un docstring y comentarios explicativos.
+Conclusión
+Con esta práctica he consolidado los conceptos fundamentales de la Unidad 1: uso correcto de variables, entrada y salida de datos, cálculos matemáticos y estructuras de control básicas. Además, mejoré la presentación del programa y la documentación del código, preparando una base sólida para futuros proyectos más complejos.

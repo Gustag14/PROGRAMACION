@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación de consola utilizando Python para gestionar un inventario de videojuegos mediante estructuras de datos como listas y diccionarios, y almacenamiento en archivos JSON.
+
+**¿Para qué sirve?**
+
+El programa permite añadir videojuegos con su nombre y plataforma, consultar la lista de videojuegos almacenados y eliminar el último registro añadido. Además, los datos se guardan automáticamente en un archivo JSON para mantener la información entre distintas ejecuciones del programa.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal. También se ha empleado la librería json para guardar y cargar datos desde archivos. Además, se han utilizado listas, diccionarios, estructuras condicionales y bucles para construir un menú interactivo y gestionar la información de los videojuegos.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con estructuras de datos como listas y diccionarios en Python, así como a almacenar información de forma persistente utilizando archivos JSON. Esto me ha permitido entender cómo se gestionan datos en aplicaciones básicas de inventario.

@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con estructuras condicionales para clasificar a una persona en una categoría deportiva según su edad.
+
+**¿Para qué sirve?**
+
+El programa solicita la edad del usuario y, mediante diferentes condiciones, determina automáticamente la categoría de baloncesto que le corresponde. Este tipo de clasificación se utiliza habitualmente en competiciones y actividades deportivas.
+
+**Tecnologías utilizadas**
+
+He utilizado Python junto con las estructuras `if`, `elif` y `else`, que permiten tomar decisiones según los datos introducidos por el usuario. También he empleado variables y la función `input()` para recoger información desde el teclado.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a utilizar condicionales para controlar el flujo de un programa y tomar decisiones automáticas en función de diferentes situaciones.

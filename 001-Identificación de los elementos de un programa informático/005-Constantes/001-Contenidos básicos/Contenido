@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con variables y constantes, aprendiendo cómo almacenar valores y modificarlos durante la ejecución del programa.
+
+**¿Para qué sirve?**
+
+Este programa muestra el valor de una variable y después lo cambia por otro diferente. De esta forma se puede observar cómo un dato almacenado puede actualizarse cuando sea necesario.
+
+**Tecnologías utilizadas**
+
+He utilizado Python por su sintaxis sencilla. También he trabajado con variables numéricas y la función `print()` para mostrar los valores antes y después de modificarlos.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido que las variables pueden cambiar de valor durante la ejecución del programa y la importancia de utilizar nombres adecuados para organizar mejor el código.

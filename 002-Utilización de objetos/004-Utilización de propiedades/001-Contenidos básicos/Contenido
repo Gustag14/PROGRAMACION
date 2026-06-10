@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he aprendido a utilizar constantes matemáticas incluidas en los módulos de Python.
+
+**¿Para qué sirve?**
+
+Este programa muestra el valor de la constante PI, un número muy utilizado en operaciones relacionadas con circunferencias, áreas y otros cálculos matemáticos.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y el módulo `math`, que proporciona constantes y funciones matemáticas listas para usar. En este caso se ha empleado la constante `pi`.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido que Python incluye módulos con herramientas matemáticas que facilitan el desarrollo de programas sin tener que definir todos los valores manualmente.

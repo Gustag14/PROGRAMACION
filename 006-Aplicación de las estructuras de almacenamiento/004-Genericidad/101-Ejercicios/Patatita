@@ -1,0 +1,36 @@
+valores = [1, 2, "3", 4, "cinco", "6"]
+
+print("Sistema de conversión y duplicado ")
+
+etiquetasnumericas = ["cero", "uno", "dos", "tres", "cuatro", "cinco"]
+
+def duplicar_valores():
+
+    for elemento in valores:
+
+        try:
+            # Intento convertir directamente
+            numero = int(elemento)
+            resultado = numero * 2
+            print(f"{elemento} -> número válido -> {resultado}")
+
+        except:
+
+            encontrado = False
+
+            i = 0
+
+            # búsqueda manual en la lista
+            while i < len(etiquetasnumericas):
+
+                if elemento == etiquetasnumericas[i]:
+                    print(f"{elemento} -> etiqueta -> {i * 2}")
+                    encontrado = True
+                    break
+
+                i += 1
+
+            if not encontrado:
+                print(f"{elemento} -> no se puede procesar ")
+
+duplicar_valores()

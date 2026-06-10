@@ -1,0 +1,15 @@
+## Introducción
+
+En esta práctica he desarrollado un programa que calcula el número de filas necesarias para un evento a partir de los asistentes y los asientos disponibles por fila. Además, el programa muestra información sobre la fecha y hora del evento.
+
+## ¿Para qué sirve?
+
+Este programa ayuda a organizar un evento calculando automáticamente las filas necesarias para acomodar a todos los asistentes. También genera un pequeño informe con datos de fecha y hora que pueden resultar útiles para la planificación.
+
+## Tecnologías utilizadas
+
+He utilizado Python junto con los módulos `math` y `datetime`. El módulo `math` se ha empleado para redondear el número de filas mediante `ceil()` y generar un código usando `pi`. El módulo `datetime` permite obtener y mostrar información relacionada con la fecha y la hora.
+
+## Conclusión
+
+Gracias a esta práctica he aprendido a trabajar con fechas, realizar cálculos matemáticos utilizando librerías estándar y validar datos introducidos por el usuario para obtener resultados correctos.

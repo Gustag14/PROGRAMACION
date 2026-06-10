@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con funciones para organizar mejor el código y reutilizar operaciones sin tener que escribirlas varias veces.
+
+**¿Para qué sirve?**
+
+El programa calcula el precio total de una compra a partir del precio de un producto y la cantidad adquirida. Gracias a la función, el cálculo puede utilizarse tantas veces como sea necesario con diferentes valores.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y una función con parámetros de entrada y un valor de retorno mediante `return`. Esto permite separar la lógica del cálculo del resto del programa y mejorar su organización.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a crear funciones, enviar datos mediante parámetros y devolver resultados utilizando `return`, haciendo que el código sea más limpio y reutilizable.

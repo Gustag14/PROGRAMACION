@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con clases y métodos en Python para organizar mejor el código y reutilizar funciones.
+
+**¿Para qué sirve?**
+
+Este programa permite realizar una suma utilizando un método definido dentro de una clase. Este tipo de estructura es muy útil cuando se desarrollan aplicaciones más grandes y se necesita organizar las funcionalidades de forma ordenada.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y la programación orientada a objetos. También he empleado una clase llamada `Matematicas` y un método estático para realizar la operación sin necesidad de crear un objeto.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido qué son las clases, cómo crear métodos y cómo organizar mejor el código utilizando los principios básicos de la programación orientada a objetos.

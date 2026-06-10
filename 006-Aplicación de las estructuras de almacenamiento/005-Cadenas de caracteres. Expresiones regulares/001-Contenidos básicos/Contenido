@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado un programa en Python que permite analizar y procesar información de usuarios mediante el uso de cadenas de texto, archivos CSV, expresiones regulares y una API de inteligencia artificial local.
+
+**¿Para qué sirve?**
+
+El programa sirve para trabajar con datos de usuarios, separando información como nombres, correos y registros almacenados en un archivo CSV. También permite limpiar y transformar datos, validar información como emails y direcciones, y obtener respuestas generadas por un modelo de inteligencia artificial.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal. Se han empleado funciones de manipulación de cadenas como split, len y replace. También se ha utilizado la librería re para expresiones regulares y validar datos. Además, se ha usado la librería requests para realizar peticiones HTTP a un modelo de IA local (Ollama). Por último, se ha trabajado con lectura de archivos CSV usando open y readlines.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con procesamiento de texto, lectura de archivos, validación de datos y conexión con servicios externos mediante APIs. Esto me ha permitido entender cómo combinar diferentes técnicas de programación en un solo sistema funcional.

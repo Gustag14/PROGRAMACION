@@ -1,0 +1,18 @@
+"""## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con bucles anidados para recorrer diferentes periodos de tiempo y realizar una acción repetitiva de forma automática.
+
+**¿Para qué sirve?**
+
+El programa simula el registro de préstamos de libros en una biblioteca. Recorre años, meses y días, mostrando la actividad realizada cada día y calculando el total de préstamos efectuados durante todo el periodo.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y estructuras repetitivas `for`. Los bucles anidados permiten recorrer varios niveles de información, como años, meses y días, mientras que las variables se utilizan para acumular el total de préstamos.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a utilizar bucles anidados para recorrer grandes cantidades de datos y realizar cálculos acumulativos de forma eficiente.
+"""

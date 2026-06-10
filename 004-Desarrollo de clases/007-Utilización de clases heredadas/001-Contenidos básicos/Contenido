@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación sencilla utilizando herencia en programación orientada a objetos. Para ello he creado una clase principal llamada Vehiculo y dos clases derivadas llamadas Coche y Moto.
+
+**¿Para qué sirve?**
+
+El programa permite representar distintos tipos de vehículos compartiendo una serie de características comunes, como la marca, el modelo y la velocidad. Gracias a la herencia, las clases hijas pueden reutilizar los atributos de la clase principal sin necesidad de volver a escribir el mismo código.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y programación orientada a objetos para crear una jerarquía de clases. He empleado una clase padre para almacenar los atributos comunes y varias clases hijas que heredan dichos atributos mediante el uso de `super()`. Además, cada clase hija incorpora características propias relacionadas con su tipo de vehículo.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a utilizar la herencia para reutilizar código y organizar mejor las clases de un programa. También he comprendido cómo funcionan las clases padre e hija y cómo acceder a los atributos heredados mediante el uso de constructores y la función `super()`.

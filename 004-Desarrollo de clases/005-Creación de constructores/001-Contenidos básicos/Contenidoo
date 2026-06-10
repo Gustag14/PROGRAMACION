@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación sencilla para gestionar clientes utilizando programación orientada a objetos en Python.
+
+**¿Para qué sirve?**
+
+El programa permite registrar clientes introduciendo datos como el nombre, los apellidos, el correo electrónico y la dirección. Además, permite consultar todos los clientes almacenados y eliminar el último cliente añadido cuando sea necesario. Toda la información se mantiene en una lista mientras el programa está en ejecución.
+
+**Tecnologías utilizadas**
+
+He utilizado Python, clases y objetos para representar cada cliente. También he empleado un constructor para inicializar los atributos de cada objeto, listas para almacenar los clientes registrados, estructuras condicionales para gestionar las distintas opciones del menú y bucles para mantener la aplicación funcionando hasta que el usuario decida salir.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a crear clases con varios atributos, utilizar constructores para inicializar objetos y almacenar múltiples objetos dentro de una lista. Además, he reforzado el uso de menús interactivos y operaciones básicas para añadir, consultar y eliminar información de forma organizada.

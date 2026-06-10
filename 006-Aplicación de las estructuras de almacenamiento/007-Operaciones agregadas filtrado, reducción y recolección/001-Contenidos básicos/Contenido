@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación web utilizando Python y Flask que genera automáticamente una rejilla numérica de 9x9 aplicando técnicas de búsqueda y validación.
+
+**¿Para qué sirve?**
+
+El programa sirve para generar una estructura tipo sudoku de forma automática, asegurando que los números del 1 al 9 no se repitan en filas, columnas ni bloques de 3x3. Para ello se utiliza un algoritmo de backtracking que prueba distintas combinaciones hasta encontrar una solución válida. Finalmente, la rejilla se muestra en una página web.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal y Flask como framework para crear la aplicación web. También se ha utilizado la librería random para generar combinaciones aleatorias y estructuras de control como bucles y recursividad para implementar el algoritmo de backtracking. Además, se han utilizado listas bidimensionales para representar la rejilla y funciones para modularizar el código.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con algoritmos de resolución de problemas complejos como el backtracking, a gestionar estructuras bidimensionales y a integrar lógica de programación en una aplicación web utilizando Flask. Esto me ha permitido entender cómo se resuelven problemas de búsqueda en programación avanzada.

@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado un programa que calcula el número de cuadras necesarias para alojar una cantidad determinada de caballos.
+
+**¿Para qué sirve?**
+
+El programa solicita al usuario el número de caballos y la capacidad de cada cuadra. A partir de esos datos calcula automáticamente cuántas cuadras son necesarias, redondeando al alza cuando sea necesario para que todos los caballos tengan espacio.
+
+**Tecnologías utilizadas**
+
+He utilizado Python junto con la función `input()` para recoger datos, variables para almacenar la información y el módulo `math` para realizar el redondeo mediante la función `ceil()`.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a combinar la entrada de datos, los cálculos matemáticos y el uso de módulos para resolver un problema práctico de forma automática.

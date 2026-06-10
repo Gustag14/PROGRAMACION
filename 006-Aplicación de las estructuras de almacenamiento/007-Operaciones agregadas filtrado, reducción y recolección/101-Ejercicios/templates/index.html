@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel numérico dinámico</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: #2c2c2c;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .board {
+            display: grid;
+            grid-template-columns: repeat(3, 120px);
+            gap: 6px;
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .block {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            border: 2px solid #444;
+            background: #f7f7f7;
+        }
+
+        .cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            border: 1px solid #bbb;
+            font-size: 22px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .cell:hover {
+            background: #dfefff;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="board">
+
+    {% for bloque in datos %}
+    <div class="block">
+
+        {% for valor in bloque %}
+        <div class="cell">{{ valor }}</div>
+        {% endfor %}
+
+    </div>
+    {% endfor %}
+
+</div>
+
+<script>
+
+    // Selecciono todas las celdas
+    let celdas = document.querySelectorAll(".cell");
+
+    celdas.forEach(celda => {
+
+        // En vez de borrarlo, lo "difumino"
+        if (Math.random() > 0.5) {
+            celda.style.opacity = "0.15";
+        }
+
+    });
+
+</script>
+
+</body>
+</html>

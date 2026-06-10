@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación gráfica utilizando la librería Tkinter de Python. El programa permite calcular la media de tres notas introducidas por el usuario.
+
+**¿Para qué sirve?**
+
+El programa sirve para introducir tres valores numéricos en una interfaz gráfica y obtener automáticamente su media al pulsar un botón. Esto permite interactuar con el usuario de una forma más visual en lugar de utilizar la consola.
+
+**Tecnologías utilizadas**
+
+He utilizado Python junto con la librería Tkinter para crear una interfaz gráfica de usuario. Se han utilizado elementos como `Tk`, `Entry`, `Label` y `Button` para construir la ventana. También se ha empleado una función para recoger los datos introducidos, realizar el cálculo y mostrar el resultado dinámicamente en pantalla.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a crear interfaces gráficas básicas con Python, a manejar eventos mediante botones y a actualizar elementos de la interfaz en tiempo real. Esto supone un paso importante desde la programación en consola hacia aplicaciones más visuales e interactivas.

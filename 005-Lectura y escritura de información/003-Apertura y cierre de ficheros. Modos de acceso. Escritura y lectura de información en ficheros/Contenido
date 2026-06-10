@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado un sistema sencillo para almacenar y recuperar información de productos utilizando archivos de texto y archivos binarios en Python.
+
+**¿Para qué sirve?**
+
+El programa permite crear una lista de productos con su nombre y precio, guardarlos en un archivo binario utilizando `pickle` y posteriormente recuperarlos para mostrarlos por pantalla. Además, también se ha añadido un sistema de registro en un archivo de texto donde se guardan mensajes del sistema.
+
+**Tecnologías utilizadas**
+
+He utilizado Python para trabajar con archivos en diferentes modos. Por un lado, he utilizado archivos de texto para guardar y leer información básica mediante `write()` y `readlines()`. Por otro lado, he utilizado la librería `pickle` para guardar y cargar objetos completos en archivos binarios. También se han utilizado listas, clases y bucles para recorrer y mostrar la información almacenada.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con distintos tipos de archivos, tanto de texto como binarios, y a guardar objetos completos utilizando `pickle`. También he reforzado el uso de clases, listas y bucles para gestionar información de forma más estructurada y persistente.

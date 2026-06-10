@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado un programa en Python que procesa una lista de valores mixtos, combinando números, cadenas numéricas y texto, aplicando control de errores con try-except.
+
+**¿Para qué sirve?**
+
+El programa permite recorrer una lista con diferentes tipos de datos y calcular el doble de cada valor. Si el elemento es un número se procesa directamente, si es una palabra numérica se busca su equivalente en una lista de etiquetas, y si no se reconoce se muestra un mensaje de error.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal. También se han empleado listas para almacenar números y etiquetas, estructuras de control como for, y manejo de errores con try-except para evitar fallos al convertir datos. Además, se ha utilizado una función para organizar la lógica del programa.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con datos mixtos en una misma estructura, a utilizar excepciones para controlar errores y a buscar valores dentro de listas. Esto me ha permitido entender cómo manejar información no estructurada de forma segura en Python.

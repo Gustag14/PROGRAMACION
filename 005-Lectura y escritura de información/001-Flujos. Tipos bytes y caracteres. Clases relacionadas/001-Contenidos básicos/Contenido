@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación sencilla para gestionar una lista de tareas utilizando archivos de texto en Python.
+
+**¿Para qué sirve?**
+
+El programa permite guardar nuevas tareas en un archivo de texto y consultar posteriormente todas las tareas almacenadas. De esta forma, la información permanece guardada incluso después de cerrar el programa.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y el manejo de archivos para almacenar información de forma permanente. También he empleado los modos de apertura de archivos para añadir y leer datos, estructuras condicionales para controlar las opciones del menú y un bucle `while` para mantener el programa en funcionamiento hasta que el usuario decida salir.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con archivos de texto para guardar y recuperar información. Además, he reforzado el uso de bucles, condicionales y operaciones de lectura y escritura, creando una aplicación sencilla capaz de almacenar datos de forma persistente.

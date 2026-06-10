@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado un sistema de gestión de reservas para una excursión. El programa controla las plazas disponibles, registra las reservas realizadas y calcula la recaudación obtenida.
+
+**¿Para qué sirve?**
+
+El programa permite reservar plazas hasta completar el aforo disponible. También controla situaciones como introducir datos incorrectos o intentar reservar más plazas de las que quedan libres, ofreciendo alternativas al usuario.
+
+**Tecnologías utilizadas**
+
+He utilizado Python junto con estructuras condicionales (`if`, `elif`, `else`), bucles `while`, instrucciones `break` y `continue`, control de errores mediante `try-except` y aserciones (`assert`) para verificar que los datos se mantienen correctos durante la ejecución.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a combinar estructuras de control, validación de datos y manejo de excepciones para crear una aplicación más completa y robusta capaz de gestionar reservas de forma segura.

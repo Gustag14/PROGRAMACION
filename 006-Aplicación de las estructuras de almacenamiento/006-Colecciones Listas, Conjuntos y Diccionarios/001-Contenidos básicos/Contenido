@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con estructuras de datos básicas en Python como listas, tuplas y diccionarios, además del uso de argumentos por consola.
+
+**¿Para qué sirve?**
+
+El programa permite almacenar información de un usuario mediante estructuras de datos, acceder a elementos concretos dentro de listas y diccionarios y realizar conversiones de tipos de datos. También permite recibir información desde la consola mediante argumentos al ejecutar el programa.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal. Se han utilizado listas y tuplas para almacenar colecciones de datos, diccionarios para representar información estructurada como una persona con teléfonos, y la librería sys para gestionar parámetros de entrada por consola. También se han realizado conversiones de tipos con int().
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con estructuras de datos básicas y anidadas en Python, así como a manejar entradas por consola. Esto me ha permitido comprender mejor cómo se organizan los datos en aplicaciones reales sin necesidad de estructuras complejas como JSON.

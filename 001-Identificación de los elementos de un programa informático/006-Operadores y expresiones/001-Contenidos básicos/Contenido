@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una pequeña calculadora de IVA utilizando Python. El programa solicita una cantidad al usuario y realiza automáticamente los cálculos necesarios.
+
+**¿Para qué sirve?**
+
+Este programa permite calcular el IVA y el importe total de una factura a partir de una base imponible. Es una herramienta sencilla que ayuda a automatizar operaciones matemáticas que se realizan con frecuencia en situaciones reales.
+
+**Tecnologías utilizadas**
+
+He utilizado Python junto con variables, operadores matemáticos y la función `input()` para recoger datos del usuario. También he empleado `float()` para trabajar con números decimales y `print()` para mostrar los resultados.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a utilizar operadores matemáticos, realizar cálculos con datos introducidos por el usuario y mostrar los resultados de forma clara por pantalla.

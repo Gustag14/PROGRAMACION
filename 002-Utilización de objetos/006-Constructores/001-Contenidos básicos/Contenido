@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con fechas utilizando las herramientas que ofrece Python para gestionar información temporal.
+
+**¿Para qué sirve?**
+
+Este programa permite crear una fecha y obtener datos concretos como el año, el mes y el día. Estas operaciones son muy útiles en aplicaciones que manejan calendarios, reservas, facturas o registros.
+
+**Tecnologías utilizadas**
+
+He utilizado Python y el módulo `datetime`, que proporciona funciones para trabajar con fechas y horas de forma sencilla y organizada.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a crear fechas y a acceder a sus diferentes componentes para utilizarlos en futuros programas.

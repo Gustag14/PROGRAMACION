@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación de consola utilizando Python para gestionar el menú de un restaurante, permitiendo añadir platos, consultarlos y guardar la información en un archivo.
+
+**¿Para qué sirve?**
+
+El programa sirve para gestionar una lista de platos de un restaurante. Permite añadir nuevos platos al menú, visualizar todos los platos registrados, guardar la información en un archivo y cargarla posteriormente para no perder los datos.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal. También se ha empleado la librería pickle para guardar y cargar datos en archivos binarios. Además, se han utilizado listas para almacenar los platos, estructuras condicionales para el menú de opciones y bucles while para mantener la aplicación en ejecución.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con listas dinámicas y a guardar información de forma persistente utilizando pickle. Esto me ha permitido entender cómo se pueden almacenar datos en archivos y recuperarlos posteriormente en una aplicación de consola.

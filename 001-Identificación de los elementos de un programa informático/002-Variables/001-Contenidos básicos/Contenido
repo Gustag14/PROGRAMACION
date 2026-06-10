@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con variables en Python para almacenar y mostrar información por pantalla.
+
+**¿Para qué sirve?**
+
+Este programa permite guardar datos, como el nombre y la edad de una persona, y mostrarlos al usuario. Es una de las bases de cualquier programa, ya que la información suele almacenarse en variables.
+
+**Tecnologías utilizadas**
+
+He utilizado Python porque es un lenguaje sencillo y fácil de aprender. También he utilizado variables para guardar datos y la función `print()` para mostrarlos en la consola.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido qué son las variables, cómo asignarles valores y cómo utilizarlas para mostrar información en pantalla.

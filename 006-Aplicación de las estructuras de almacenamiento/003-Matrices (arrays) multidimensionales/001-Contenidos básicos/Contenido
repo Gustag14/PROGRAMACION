@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación de consola utilizando Python para gestionar una lista de alumnos mediante estructuras de datos tipo matriz (listas dentro de listas) y almacenamiento persistente con pickle.
+
+**¿Para qué sirve?**
+
+El programa permite registrar alumnos con sus datos personales como nombre, apellidos, email y teléfono. También permite visualizar todos los alumnos registrados y guardar la información en un archivo para no perder los datos cuando se cierre el programa.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal. También se ha empleado la librería pickle para guardar y cargar datos en archivos binarios. Además, se han utilizado matrices (listas bidimensionales) para almacenar la información de cada alumno, junto con estructuras condicionales y bucles para gestionar el menú.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con matrices en Python, entendiendo cómo almacenar múltiples datos dentro de listas anidadas y cómo persistir información utilizando pickle. Esto me ha permitido reforzar la gestión de estructuras de datos más complejas en programación.

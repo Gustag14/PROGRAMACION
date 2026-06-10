@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación sencilla para gestionar videojuegos utilizando programación orientada a objetos.
+
+**¿Para qué sirve?**
+
+El programa permite registrar videojuegos, consultar los que están almacenados y eliminar registros cuando sea necesario. Toda la información se guarda temporalmente en una lista mientras el programa está en ejecución.
+
+**Tecnologías utilizadas**
+
+He utilizado Python, clases y objetos para representar cada videojuego. También he empleado listas para almacenar los datos, estructuras condicionales para gestionar el menú y bucles para mantener la aplicación funcionando hasta que el usuario decida salir.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a combinar clases, objetos y listas para crear una pequeña aplicación CRUD capaz de añadir, consultar y eliminar información de forma organizada.

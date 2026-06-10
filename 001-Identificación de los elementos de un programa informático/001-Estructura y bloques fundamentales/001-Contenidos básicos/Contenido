@@ -1,0 +1,17 @@
+Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he realizado un programa muy sencillo en Python que muestra un mensaje por pantalla.
+
+**Para qué sirve?**
+
+Este programa sirve para comprobar que Python está instalado y funciona correctamente. También es una primera toma de contacto con la programación.
+
+**Tecnologías utilizadas**
+
+He utilizado Python porque es un lenguaje fácil de aprender y muy utilizado. La función `print()` permite mostrar texto en la consola.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido cómo ejecutar un programa básico y mostrar información al usuario.
