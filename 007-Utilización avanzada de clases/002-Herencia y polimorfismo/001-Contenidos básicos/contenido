@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado un ejemplo de programación orientada a objetos utilizando herencia y sobrescritura de métodos en Python. Para ello he creado una clase principal llamada Vehiculo y varias clases hijas que representan distintos tipos de vehículos.
+
+**¿Para qué sirve?**
+
+El programa sirve para entender cómo las clases hijas pueden heredar propiedades y métodos de una clase principal. Además, cada clase hija puede modificar el comportamiento de un método heredado para adaptarlo a sus necesidades, utilizando sobrescritura de métodos.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal. También se han empleado clases, constructores, atributos y métodos. Además, se ha utilizado herencia mediante super() para reutilizar código de la clase padre y sobrescritura de métodos para personalizar el comportamiento de cada tipo de vehículo.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a utilizar herencia en programación orientada a objetos y a sobrescribir métodos heredados para modificar su funcionamiento. Esto me ha permitido comprender mejor cómo reutilizar código y crear estructuras más organizadas y flexibles en Python.

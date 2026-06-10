@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una pequeña aplicación web que funciona como un laboratorio de código Python. La aplicación permite escribir código desde el navegador, enviarlo al servidor y mostrar el resultado de la ejecución en una terminal simulada.
+
+**¿Para qué sirve?**
+
+El programa sirve para ejecutar pequeños fragmentos de código Python desde una interfaz web. El usuario escribe el código en un editor, pulsa un botón para ejecutarlo y el servidor procesa ese código usando Python. Después, la salida se muestra en una terminal dentro de la propia página.
+
+**Tecnologías utilizadas**
+
+He utilizado HTML, CSS y JavaScript para crear la interfaz del editor y la terminal. En el backend he utilizado Flask para crear las rutas del servidor y recibir peticiones mediante fetch. También se han utilizado subprocess para ejecutar código Python, threading y queue para leer la salida del proceso sin bloquear la aplicación, tempfile para crear archivos temporales y uuid para identificar cada sesión de ejecución.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a conectar una interfaz web con un backend Flask y a ejecutar procesos desde Python de forma controlada. También he comprendido cómo gestionar sesiones, leer salidas de terminal y enviar información entre frontend y backend utilizando JSON.

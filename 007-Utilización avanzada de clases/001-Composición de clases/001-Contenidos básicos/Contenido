@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado un ejemplo de programación orientada a objetos utilizando herencia entre clases en Python. Para ello he creado una clase principal llamada Empleado y varias clases hijas que representan diferentes tipos de empleados dentro de una empresa.
+
+**¿Para qué sirve?**
+
+El programa sirve para comprender cómo una clase base puede compartir sus propiedades y métodos con otras clases hijas. De esta forma, las clases Desarrollador, Diseñador, DesarrolladorFrontend y DesarrolladorBackend reutilizan los atributos definidos en la clase Empleado sin necesidad de repetir código.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal. Se han empleado clases, constructores, atributos, métodos y herencia. También se ha utilizado super() para llamar al constructor de la clase padre desde las clases hijas. Además, se ha creado una representación visual en HTML y CSS para mostrar la relación jerárquica entre las clases.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a aplicar herencia en programación orientada a objetos, entendiendo cómo organizar clases relacionadas entre sí y reutilizar código de una forma más limpia. También he visto cómo representar visualmente una jerarquía de clases mediante un diagrama sencillo en HTML.

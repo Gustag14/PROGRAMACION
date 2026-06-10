@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulador de drones</title>
+
+    <style>
+        body{
+            margin:0;
+            background:#202020;
+            overflow:hidden;
+        }
+
+        canvas{
+            display:block;
+            margin:auto;
+            background:#87CEEB;
+            border:4px solid white;
+        }
+    </style>
+</head>
+
+<body>
+
+<canvas></canvas>
+
+<script>
+
+    const lienzo = document.querySelector("canvas");
+    const contexto = lienzo.getContext("2d");
+
+    lienzo.width = 600;
+    lienzo.height = 600;
+
+    class Drone{
+
+        constructor(){
+
+            this.x = Math.random() * 600;
+            this.y = Math.random() * 600;
+
+            this.radio = 5 + Math.random() * 10;
+
+            this.velocidadX = (Math.random() - 0.5) * 4;
+            this.velocidadY = (Math.random() - 0.5) * 4;
+
+            this.color = [
+                Math.round(Math.random() * 255),
+                Math.round(Math.random() * 255),
+                Math.round(Math.random() * 255)
+            ];
+        }
+    }
+
+    let drones = [];
+
+    // Cargar drones guardados
+    if(localStorage.getItem("drones")){
+
+        drones = JSON.parse(localStorage.getItem("drones"));
+
+    }else{
+
+        for(let i = 0; i < 80; i++){
+
+            drones.push(new Drone());
+
+        }
+    }
+
+    function animacion(){
+
+        contexto.clearRect(0,0,600,600);
+
+        drones.forEach(function(drone){
+
+            drone.x += drone.velocidadX;
+            drone.y += drone.velocidadY;
+
+            // Rebote horizontal
+            if(drone.x < 0 || drone.x > 600){
+                drone.velocidadX *= -1;
+            }
+
+            // Rebote vertical
+            if(drone.y < 0 || drone.y > 600){
+                drone.velocidadY *= -1;
+            }
+
+            contexto.fillStyle =
+                "rgb("+
+                drone.color[0]+","+
+                drone.color[1]+","+
+                drone.color[2]+")";
+
+            contexto.beginPath();
+
+            contexto.arc(
+                drone.x,
+                drone.y,
+                drone.radio,
+                0,
+                Math.PI * 2
+            );
+
+            contexto.fill();
+
+        });
+
+        requestAnimationFrame(animacion);
+    }
+
+    // Guardar drones
+    localStorage.setItem(
+        "drones",
+        JSON.stringify(drones)
+    );
+
+    animacion();
+
+</script>
+
+</body>
+</html>

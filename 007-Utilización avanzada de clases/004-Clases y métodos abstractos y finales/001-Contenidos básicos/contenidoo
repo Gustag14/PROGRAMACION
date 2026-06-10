@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una pequeña aplicación web interactiva utilizando HTML, CSS y JavaScript. El ejercicio combina programación orientada a objetos, movimiento de elementos en pantalla, eventos de teclado y ratón, y dibujo sobre canvas.
+
+**¿Para qué sirve?**
+
+El programa simula una pequeña nave espacial que puede moverse por la pantalla usando las teclas W, A, S y D. Además, al hacer clic con el ratón se muestra un mensaje de disparo en la consola. También se dibuja un radar en un canvas, cuya línea se actualiza según el paso del tiempo.
+
+**Tecnologías utilizadas**
+
+He utilizado HTML para crear la estructura de la página, CSS para aplicar estilos y transformaciones visuales, y JavaScript para controlar la lógica del programa. También se han utilizado clases con herencia mediante extends y super(), eventos de teclado y ratón, funciones matemáticas como Math.cos() y Math.sin(), canvas para dibujar gráficos y setTimeout para actualizar el radar de forma periódica.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a combinar varios conceptos de JavaScript en una misma aplicación: clases, herencia, eventos, transformaciones CSS, dibujo en canvas y temporizadores. Esto me ha permitido entender mejor cómo se pueden crear pequeñas aplicaciones interactivas dentro del navegador.

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #escenario {
+      width: 600px;
+      height: 600px;
+      background: yellow;
+      border: 5px solid black;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .robot {
+      position: absolute;
+      background: red;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Simulación funcionando</h1>
+  <div id="escenario"></div>
+
+  <script>
+    const escenario = document.getElementById("escenario");
+
+    function actualizar() {
+      fetch("/api")
+        .then(respuesta => respuesta.json())
+        .then(datos => {
+          escenario.innerHTML = "";
+
+          datos.forEach(robot => {
+            let bola = document.createElement("div");
+
+            bola.classList.add("robot");
+
+            bola.style.left = robot.x + "px";
+            bola.style.top = robot.y + "px";
+            bola.style.width = robot.tamano + "px";
+            bola.style.height = robot.tamano + "px";
+
+            escenario.appendChild(bola);
+          });
+        });
+    }
+
+    actualizar();
+    setInterval(actualizar, 100);
+  </script>
+
+</body>
+</html>

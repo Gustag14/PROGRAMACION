@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado varios ejemplos básicos en PHP para repasar variables, operadores, condicionales, bucles, arrays, funciones y clases.
+
+**¿Para qué sirve?**
+
+El programa sirve para entender los fundamentos principales de PHP mediante un ejemplo relacionado con una cartelera de cine. Se realizan comparaciones, se utilizan operadores lógicos, se modifican variables, se muestran días en pantalla, se clasifican edades, se recorren estructuras de datos y se crean objetos.
+
+**Tecnologías utilizadas**
+
+He utilizado PHP como lenguaje principal. También se han empleado operadores de comparación y operadores lógicos, variables, estructuras condicionales como if-else y switch, bucles for, arrays simples y arrays multidimensionales. Además, se han utilizado funciones con y sin parámetros, clases, constructores y objetos.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a manejar los conceptos básicos de PHP y a estructurar pequeños programas dinámicos. También he comprendido cómo combinar PHP con HTML para generar contenido en una página web de forma automática.

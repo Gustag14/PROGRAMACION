@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado varios formularios en PHP y HTML para aprender a enviar y recibir información mediante los métodos GET y POST.
+
+**¿Para qué sirve?**
+
+El programa permite introducir información desde formularios web y mostrar posteriormente los datos enviados por el usuario. En este caso, se ha utilizado un ejemplo relacionado con recetas de cocina, donde se registran nombres de recetas e ingredientes principales.
+
+**Tecnologías utilizadas**
+
+He utilizado HTML para construir los formularios y PHP para procesar la información enviada. También se han utilizado los arrays superglobales $_GET y $_POST para recibir datos, junto con la función isset para comprobar si los campos existen antes de utilizarlos. Además, se ha empleado CSS básico para mejorar el diseño visual de la página.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con formularios web y a intercambiar información entre HTML y PHP utilizando métodos GET y POST. También he comprendido cómo validar datos recibidos y cómo crear formularios autoenviados en aplicaciones web sencillas.

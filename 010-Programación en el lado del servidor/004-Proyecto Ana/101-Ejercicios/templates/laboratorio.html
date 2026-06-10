@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratorio Python</title>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: #202124;
+            font-family: monospace;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            width: 520px;
+            margin: auto;
+        }
+
+        .ventana {
+            border: 1px solid #555;
+            border-top: 28px solid #444;
+            border-radius: 6px;
+            box-shadow: 0px 5px 12px rgba(0,0,0,0.4);
+            padding: 15px;
+            margin-bottom: 12px;
+        }
+
+        #editor {
+            background: #e8eaed;
+            color: #111;
+            height: 140px;
+            outline: none;
+        }
+
+        #terminal {
+            background: #000;
+            color: #00ff66;
+            height: 90px;
+            white-space: pre-wrap;
+            overflow: auto;
+        }
+
+        #entrada {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            font-family: monospace;
+        }
+
+        button {
+            background: #1a73e8;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background: #1558b0;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Laboratorio Python</h1>
+</header>
+
+<main>
+
+    <div id="editor" class="ventana" contenteditable="true">
+print("Hola desde Python")
+    </div>
+
+    <button id="ejecutar">Ejecutar código</button>
+
+    <input type="text" id="entrada" placeholder="Escribe aquí si el programa pide input">
+
+    <button id="enviar">Enviar entrada</button>
+
+    <div id="terminal" class="ventana"></div>
+
+</main>
+
+<script>
+    let sessionId = null;
+    let intervalo = null;
+
+    let botonEjecutar = document.querySelector("#ejecutar");
+    let botonEnviar = document.querySelector("#enviar");
+    let editor = document.querySelector("#editor");
+    let terminal = document.querySelector("#terminal");
+    let entrada = document.querySelector("#entrada");
+
+    botonEjecutar.onclick = function() {
+
+        terminal.textContent = "";
+        let codigo = editor.textContent;
+
+        fetch("/api/start", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                code: codigo
+            })
+        })
+        .then(respuesta => respuesta.json())
+        .then(datos => {
+
+            sessionId = datos.session_id;
+
+            intervalo = setInterval(leerSalida, 500);
+
+        });
+    };
+
+    botonEnviar.onclick = function() {
+
+        if(sessionId == null){
+            terminal.textContent += "\nNo hay ningún programa ejecutándose";
+            return;
+        }
+
+        fetch("/api/write", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                session_id: sessionId,
+                line: entrada.value
+            })
+        });
+
+        entrada.value = "";
+    };
+
+    function leerSalida() {
+
+        if(sessionId == null){
+            return;
+        }
+
+        fetch("/api/read?session_id=" + sessionId)
+        .then(respuesta => respuesta.json())
+        .then(datos => {
+
+            if(datos.output){
+                terminal.textContent += datos.output;
+            }
+
+            if(datos.alive == false){
+                clearInterval(intervalo);
+            }
+
+        });
+    }
+</script>
+
+</body>
+</html>

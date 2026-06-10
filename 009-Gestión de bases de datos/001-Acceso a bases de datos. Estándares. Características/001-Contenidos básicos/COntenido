@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación sencilla en Python utilizando SQLite como sistema de base de datos. El programa permite crear automáticamente una base de datos, generar una tabla de videojuegos, insertar registros y consultar la información almacenada.
+
+**¿Para qué sirve?**
+
+El programa sirve para aprender cómo funcionan las bases de datos SQLite dentro de Python. Gracias a esta práctica es posible crear una tabla, guardar videojuegos con diferentes propiedades y mostrar posteriormente todos los registros almacenados en pantalla.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal y la librería sqlite3 para trabajar con bases de datos SQLite. También se han utilizado consultas SQL como CREATE TABLE, INSERT INTO y SELECT para gestionar la información almacenada. Además, se han empleado bucles para recorrer y mostrar los datos obtenidos desde la base de datos.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a crear y gestionar bases de datos SQLite directamente desde Python, comprendiendo cómo insertar y consultar información mediante sentencias SQL. También he entendido cómo almacenar datos de forma persistente dentro de un archivo .db utilizando Visual Studio Code.

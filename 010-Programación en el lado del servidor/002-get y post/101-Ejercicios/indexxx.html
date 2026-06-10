@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <style>
+
+        html,body{
+            width:100%;
+            height:100%;
+            padding:0;
+            margin:0;
+        }
+
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            background:#f0f0f0;
+            font-family:Arial;
+        }
+
+        header,
+        main,
+        footer{
+            width:400px;
+            background:white;
+            padding:20px;
+            margin:10px;
+            box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        form{
+            display:flex;
+            flex-direction:column;
+            gap:10px;
+        }
+
+        input{
+            padding:10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Registro de recetas</h1>
+
+</header>
+
+<main>
+
+    <form action="?" method="POST">
+
+        <label for="nombre">
+            Nombre de la receta
+        </label>
+
+        <input type="text" name="nombre" id="nombre">
+
+        <label for="ingrediente">
+            Ingrediente principal
+        </label>
+
+        <input type="text" name="ingrediente" id="ingrediente">
+
+        <input type="submit" value="Guardar receta">
+
+    </form>
+
+</main>
+
+<footer>
+
+<?php
+
+if(
+    isset($_POST['nombre']) &&
+    isset($_POST['ingrediente'])
+){
+
+    echo "Receta registrada:";
+    echo "<br>";
+
+    echo "Nombre: ".$_POST['nombre'];
+
+    echo "<br>";
+
+    echo "Ingrediente: ".$_POST['ingrediente'];
+
+}
+
+?>
+
+</footer>
+
+</body>
+</html>

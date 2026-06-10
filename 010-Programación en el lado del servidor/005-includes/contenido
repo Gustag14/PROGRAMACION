@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una pequeña página web modular utilizando PHP y archivos reutilizables mediante include.
+
+**¿Para qué sirve?**
+
+El proyecto permite crear varias páginas web reutilizando una misma cabecera y un mismo pie de página. De esta forma, el código queda más organizado y resulta mucho más fácil mantener el sitio web.
+
+**Tecnologías utilizadas**
+
+He utilizado PHP como lenguaje principal para incluir bloques reutilizables mediante include. También se ha utilizado HTML para estructurar las páginas y CSS para aplicar estilos visuales básicos. Además, se ha organizado el proyecto en carpetas para separar correctamente los distintos componentes de la web.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a dividir una aplicación web en bloques reutilizables utilizando include en PHP. Esto me ha permitido comprender cómo se organizan las páginas web reales para evitar repetir código y facilitar el mantenimiento de los proyectos.

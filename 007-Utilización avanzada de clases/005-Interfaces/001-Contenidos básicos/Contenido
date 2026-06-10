@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he trabajado con diferentes lenguajes y librerías para extraer información de páginas web, modificar imágenes píxel a píxel y generar formularios dinámicos con PHP.
+
+**¿Para qué sirve?**
+
+El programa en Python permite acceder a páginas web y extraer sus títulos principales utilizando etiquetas H1. También permite modificar una imagen aplicando un efecto negativo a sus colores. Por otro lado, el código PHP permite recorrer los datos de un usuario y generar campos de formulario automáticamente.
+
+**Tecnologías utilizadas**
+
+He utilizado Python como lenguaje principal junto con las librerías requests y lxml para obtener y analizar contenido HTML de páginas web. También se ha usado Pillow para abrir una imagen, recorrer sus píxeles y modificar sus colores. Además, se ha utilizado PHP para trabajar con arrays asociativos y recorrerlos mediante foreach.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a combinar scraping web, tratamiento básico de imágenes y generación dinámica de formularios. Esto me ha permitido entender cómo se pueden automatizar tareas distintas utilizando Python y PHP.

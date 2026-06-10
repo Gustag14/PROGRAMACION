@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una simulación visual utilizando HTML5 Canvas y JavaScript. El programa representa varios drones que se mueven de forma aleatoria por la pantalla y cuyos datos quedan almacenados en el navegador mediante localStorage.
+
+**¿Para qué sirve?**
+
+El programa sirve para comprender cómo trabajar con animaciones, objetos y persistencia de datos en JavaScript. Cada dron tiene propiedades propias como posición, velocidad, tamaño y color. Además, los drones se dibujan dinámicamente sobre un canvas y rebotan cuando llegan a los bordes del escenario.
+
+**Tecnologías utilizadas**
+
+He utilizado HTML5 para crear la estructura de la página y Canvas para dibujar elementos gráficos en tiempo real. También he utilizado JavaScript para crear clases y objetos, generar movimientos aleatorios y almacenar información mediante localStorage. Además, se han empleado arrays de objetos y requestAnimationFrame para realizar la animación continua.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con canvas y animaciones en JavaScript, creando una simulación dinámica basada en objetos. También he comprendido cómo guardar información persistente en el navegador utilizando localStorage y cómo gestionar múltiples elementos gráficos en movimiento.

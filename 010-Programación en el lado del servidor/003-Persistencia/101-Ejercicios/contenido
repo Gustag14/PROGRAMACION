@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una aplicación web sencilla en PHP para registrar incidencias de soporte técnico y guardar la información en archivos JSON.
+
+**¿Para qué sirve?**
+
+El programa permite introducir los datos de una incidencia mediante un formulario, convertir esa información a formato JSON y guardarla en un archivo dentro del servidor. Además, se trabajan ejemplos básicos de lectura y escritura de archivos de texto.
+
+**Tecnologías utilizadas**
+
+He utilizado PHP como lenguaje principal para procesar formularios y gestionar archivos. También se han utilizado funciones como fopen, fwrite, fread y fclose para abrir, escribir, leer y cerrar archivos. Además, se ha empleado json_encode para convertir arrays asociativos en formato JSON y $_POST para recibir los datos enviados desde el formulario.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a trabajar con archivos en PHP, guardar información enviada desde formularios y convertir datos a formato JSON. Esto me ha permitido comprender cómo se pueden almacenar datos de forma sencilla sin necesidad de utilizar una base de datos.

@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una pequeña aplicación web en PHP para aprender a trabajar con variables, sesiones y navegación entre páginas.
+
+**¿Para qué sirve?**
+
+El programa permite guardar información de un usuario en variables de sesión y recuperarla posteriormente desde otras páginas del sitio web. De esta forma, el usuario puede mantener sus datos activos mientras navega por la aplicación.
+
+**Tecnologías utilizadas**
+
+He utilizado PHP como lenguaje principal para trabajar con variables y sesiones mediante $_SESSION y session_start(). También se ha utilizado HTML para construir las páginas y enlaces entre diferentes apartados de la aplicación.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido cómo funcionan las sesiones en PHP y cómo compartir información entre distintas páginas web. Esto me ha permitido comprender cómo se mantienen los datos de usuarios en aplicaciones reales como plataformas online o sistemas de login.

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini radar interactivo</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #111;
+            height: 100vh;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        #nave {
+            width: 45px;
+            height: 45px;
+            background: orange;
+            border: 2px solid white;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            transform: rotate(45deg);
+        }
+
+        canvas {
+            position: absolute;
+            right: 30px;
+            top: 30px;
+            background: #f4f4f4;
+            border: 3px solid white;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="nave"></div>
+<canvas></canvas>
+
+<script>
+    class Ser {
+        constructor(nombre) {
+            this.nombre = nombre;
+        }
+    }
+
+    class Vehiculo extends Ser {
+        constructor(nombre, tipo) {
+            super(nombre);
+            this.tipo = tipo;
+        }
+    }
+
+    class Nave extends Vehiculo {
+        constructor(nombre, tipo, color) {
+            super(nombre, tipo);
+            this.color = color;
+        }
+    }
+
+    let nave1 = new Nave("Explorador", "Espacial", "naranja");
+    console.log(nave1);
+
+    let posx = 100;
+    let posy = 100;
+
+    document.onkeydown = function(tecla) {
+
+        switch(tecla.key) {
+            case "w":
+                posy -= 10;
+                break;
+
+            case "s":
+                posy += 10;
+                break;
+
+            case "a":
+                posx -= 10;
+                break;
+
+            case "d":
+                posx += 10;
+                break;
+        }
+
+        document.querySelector("#nave").style.transform =
+            "translate(" + posx + "px," + posy + "px) rotate(45deg)";
+    }
+
+    document.onmousedown = function() {
+        console.log("Disparo de la nave");
+    }
+
+    let lienzo = document.querySelector("canvas");
+    lienzo.width = 300;
+    lienzo.height = 300;
+
+    let contexto = lienzo.getContext("2d");
+
+    function dibujarRadar() {
+
+        let fecha = new Date();
+        let segundo = fecha.getSeconds();
+
+        contexto.clearRect(0, 0, 300, 300);
+
+        contexto.beginPath();
+        contexto.arc(150, 150, 120, 0, Math.PI * 2);
+        contexto.stroke();
+
+        let angulo = segundo * (Math.PI * 2 / 60) - Math.PI / 2;
+
+        contexto.beginPath();
+        contexto.moveTo(150, 150);
+        contexto.lineTo(
+            150 + Math.cos(angulo) * 120,
+            150 + Math.sin(angulo) * 120
+        );
+        contexto.stroke();
+
+        setTimeout(dibujarRadar, 1000);
+    }
+
+    dibujarRadar();
+</script>
+
+</body>
+</html>

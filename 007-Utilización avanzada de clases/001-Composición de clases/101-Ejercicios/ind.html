@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diagrama de herencia</title>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #eef2f3;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  position: relative;
+  background: white;
+  border: 1px solid #ccc;
+  width: 650px;
+  height: 360px;
+  margin: auto;
+}
+
+.box {
+  position: absolute;
+  width: 150px;
+  height: 45px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background: #fdfdfd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.line {
+  position: absolute;
+  height: 2px;
+  background: #333;
+  transform-origin: left center;
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -4px;
+  border-left: 8px solid #333;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+  <div class="box" style="left:250px; top:30px;">Empleado</div>
+
+  <div class="box" style="left:90px; top:140px;">Diseñador</div>
+  <div class="box" style="left:390px; top:140px;">Desarrollador</div>
+
+  <div class="box" style="left:310px; top:260px;">Frontend</div>
+  <div class="box" style="left:500px; top:260px;">Backend</div>
+
+  <div class="line" style="left:260px; top:80px; width:190px; transform:rotate(145deg);"></div>
+  <div class="line" style="left:380px; top:80px; width:150px; transform:rotate(42deg);"></div>
+
+  <div class="line" style="left:445px; top:185px; width:110px; transform:rotate(135deg);"></div>
+  <div class="line" style="left:505px; top:185px; width:105px; transform:rotate(55deg);"></div>
+
+</div>
+
+</body>
+</html>

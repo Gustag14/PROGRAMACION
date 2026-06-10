@@ -1,0 +1,17 @@
+## Explicación de la práctica
+
+**Introducción**
+
+En esta práctica he desarrollado una pequeña página web en PHP utilizando archivos separados e instrucciones include para reutilizar partes comunes del sitio.
+
+**¿Para qué sirve?**
+
+El programa sirve para organizar una página web dividiendo su contenido en bloques independientes. En este caso, la navegación se guarda en un archivo separado y la tabla de datos en otro, para después incluirlos dentro de la página principal.
+
+**Tecnologías utilizadas**
+
+He utilizado HTML para crear la estructura de la página y PHP para incluir archivos externos mediante include. También se han utilizado listas ul y li para crear un menú de navegación, enlaces con a y tablas HTML para mostrar información organizada en filas y columnas.
+
+**Conclusión**
+
+Gracias a esta práctica he aprendido a reutilizar bloques de código en PHP y a organizar mejor los archivos de una web. Esto permite evitar repetir código y facilita el mantenimiento cuando una página empieza a tener varias secciones.
