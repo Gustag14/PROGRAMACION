@@ -1,0 +1,47 @@
+# Explicación de la práctica
+
+## Introducción
+
+En esta práctica se ha desarrollado una pequeña página web en PHP para una academia de cursos online. El objetivo es simular el recorrido de un usuario por distintas secciones de una web, desde la página principal hasta la finalización de una inscripción.
+
+El contexto se ha cambiado respecto al ejemplo original. En vez de una tienda con catálogo, producto, carrito y finalización, ahora se trabaja con una academia que tiene cursos, detalle del curso, inscripción y confirmación final.
+
+---
+
+## ¿Para qué sirve?
+
+Esta práctica sirve para entender cómo se puede crear una web sencilla con varias secciones usando PHP, HTML y CSS.
+
+El usuario puede navegar por diferentes partes de la página:
+
+* página principal
+* catálogo de cursos
+* detalle de un curso
+* inscripción
+* finalización del proceso
+
+También se practica el uso de enlaces con parámetros por URL usando `$_GET`, permitiendo cambiar el contenido que se muestra sin tener que crear muchos archivos separados.
+
+---
+
+## Tecnologías utilizadas
+
+Para realizar esta práctica se ha utilizado:
+
+* HTML para crear la estructura de la página
+* CSS para dar estilo visual a la web
+* PHP para controlar qué contenido se muestra
+* Enlaces con parámetros `GET`
+* La variable `$_GET` para leer la página seleccionada
+* Condicionales `if` y `else if`
+* Secciones, artículos y navegación
+* Visual Studio Code como editor de código
+* XAMPP y Apache para ejecutar PHP en local
+
+---
+
+## Conclusión
+
+Gracias a esta práctica se ha aprendido a crear una web básica con navegación entre varias secciones usando PHP. También se ha practicado la organización visual con HTML y CSS, usando cabecera, menú, contenido principal y pie de página.
+
+Además, el ejercicio ayuda a comprender cómo fluye una aplicación web sencilla, donde el usuario empieza en una página principal, consulta información, realiza una acción y finalmente vuelve al inicio.

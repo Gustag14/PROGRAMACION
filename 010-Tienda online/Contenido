@@ -1,0 +1,53 @@
+# Explicación de la práctica
+
+## Introducción
+
+En esta práctica se ha desarrollado una página web en PHP para una academia online de cursos. El objetivo principal es simular el funcionamiento de una web sencilla donde el usuario puede entrar en la página principal, ver un catálogo de cursos, consultar un curso concreto, iniciar una inscripción y finalizar el proceso.
+
+El contexto se ha cambiado respecto al ejemplo original. En lugar de una tienda online con productos, carrito y pedidos, se ha creado una academia con cursos, alumnos e inscripciones.
+
+---
+
+## ¿Para qué sirve?
+
+Esta práctica sirve para entender cómo se construye una aplicación web sencilla conectada a una base de datos MySQL.
+
+La página permite mostrar cursos guardados en una tabla de la base de datos y navegar por distintas secciones usando enlaces con parámetros en la URL.
+
+El recorrido de la web sería:
+
+* página principal
+* catálogo de cursos
+* página de un curso
+* inscripción
+* finalización
+* vuelta al inicio
+
+También sirve para practicar cómo PHP puede conectarse a MySQL, ejecutar consultas `SELECT` y pintar los resultados en pantalla.
+
+---
+
+## Tecnologías utilizadas
+
+Para realizar esta práctica se ha utilizado:
+
+* HTML para crear la estructura de la página
+* CSS para diseñar la apariencia visual
+* PHP para controlar el contenido de la web
+* MySQL como sistema de base de datos
+* `mysqli` para conectar PHP con MySQL
+* Consultas SQL
+* `SELECT` para leer cursos desde la base de datos
+* `$_GET` para cambiar de página según la URL
+* Condicionales `if` y `else if`
+* Tablas relacionadas mediante claves foráneas
+* XAMPP y Apache para ejecutar el proyecto en local
+* Visual Studio Code como editor de código
+
+---
+
+## Conclusión
+
+Gracias a esta práctica se ha aprendido a crear una web dinámica usando PHP y MySQL. También se ha practicado la creación de una base de datos con varias tablas relacionadas, como cursos, alumnos, inscripciones y líneas de inscripción.
+
+Además, el ejercicio ayuda a comprender el flujo básico de una aplicación web: el usuario entra en la página principal, consulta información desde la base de datos, avanza por distintas pantallas y termina el proceso volviendo al inicio.
